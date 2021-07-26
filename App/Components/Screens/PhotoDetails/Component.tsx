@@ -7,7 +7,6 @@ import styles from './styles';
 export const PhotoDetails = ({}) => {
   const navigation = useNavigation();
   const data = navigation.getParam('data');
-  console.log(data)
   const goBack = () => navigation.goBack();
   return (
     <SafeAreaView style={styles.safeArea}>
